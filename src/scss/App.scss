@@ -1,0 +1,16 @@
+body {
+  display: flex;
+}
+
+#root {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+  padding: 0 10px;
+}
+
+.app {
+  width: 650px;
+}

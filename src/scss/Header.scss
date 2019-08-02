@@ -1,0 +1,23 @@
+.header.ui.secondary.menu {
+  display: flex;
+  justify-content: space-between;
+
+  .item {
+    font-size: 15px;
+
+    &.grayed-out {
+      color: gray;
+      pointer-events: none;
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+
+    .item {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
