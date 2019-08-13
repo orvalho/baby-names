@@ -15,11 +15,11 @@ export default() => (
     <BrowserRouter>
       <Route path="/" component={Header}/>
       <Switch>
-        <Route path="/" exact={true} component={Home}/>
-        <Route path="/names/girls" component={NameList}/>
-        <Route path="/names/boys" component={NameList}/>
-        <Route path="/names/new" component={NameBox}/>
-        <Route path="/profile" component={Profile}/>
+        <Route path="/" exact component={Home}/>
+        <Route path="/names/girls" exact component={NameList}/>
+        <Route path="/names/boys" exact component={NameList}/>
+        <Route path="/names/new" exact component={NameBox}/>
+        <Route path="/profile" exact component={Profile}/>
         <Route component={NotFound}/>
       </Switch>
     </BrowserRouter>
