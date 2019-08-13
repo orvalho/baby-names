@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "REACT_APP_CLIENT_ID": "@react_app_client_id"
+    }
+  }
+}
